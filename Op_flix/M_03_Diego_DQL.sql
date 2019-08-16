@@ -1,5 +1,4 @@
 USE M_OpFlix
-USE M_OpFlix
 SELECT * FROM Produtoras ORDER BY IdProdutora ASC
 SELECT * FROM Plataformas ORDER BY IdPlataforma ASC
 SELECT * FROM TiposTitulo ORDER BY IdTipoTitulo ASC

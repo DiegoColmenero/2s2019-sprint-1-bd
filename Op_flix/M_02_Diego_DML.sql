@@ -103,6 +103,13 @@ UPDATE Usuarios
 SET Imagens = 'https://korova.com.br/wordpress/wp-content/uploads/2018/02/cutest-baby-animals-24__605-1.jpg'
 WHERE TipoDeUsuario = 'ADMINISTRADOR'
 
+INSERT INTO Titulos (Nome, Sinopse, Duracao, DataLancamento, IdTipoTitulo, IdCategoria, IdPlataforma, IdProdutora)
+VALUES ('Guardiões da Galáxia','Os heróis mai descolados da galáxia vão salvar nossa galáxia',2,'2019-08-13',1,5,2,3)
+
+UPDATE Titulos
+SET Classificacao = '14+'
+WHERE Nome = 'Guardiões da Galáxia'
+	  
 
 
 
